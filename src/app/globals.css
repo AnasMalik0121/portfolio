@@ -360,5 +360,10 @@ align-items: center;
 .contact-ul{
   display: flex;
   justify-content: space-evenly;
-  
+}
+.contact-img{
+ transition: 0.5s;
+}
+.contact-img:hover{
+  width: 100px;
 }
