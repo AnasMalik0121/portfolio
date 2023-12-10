@@ -1,12 +1,11 @@
 import React from 'react';
-import openimg from '../../../public/images/Screen Scratch - scratch.jpg'
-import Image from 'next/image';
+
 
 function Service(props) {
     return (
         <div className='service-seaction'>   
         <div className='service-heading'>
-        <h3 class="title-a">
+        <h3 className="title-a">
                 Services
               </h3>
               
@@ -17,9 +16,7 @@ function Service(props) {
 
             <div className='service-colum'>
             <div className='service-box1'>
-                <div className='service-img1'>
-                    {/* <Image src=  {openimg} alt='image' height={100} width={100} /> */}
-                </div>
+                <div className='service-img1'></div>
                 <div className='service-text1'>
                     <h2 className='text-service-h2'>
                     WEB DESIGN
@@ -30,9 +27,7 @@ function Service(props) {
             </div>
             <div className='service-colum'>
             <div className='service-box1'>
-                <div className='service-img2'>
-                    {/* <Image src=  {openimg} alt='image' height={100} width={100} /> */}
-                </div>
+                <div className='service-img2'> </div>
                 <div className='service-text1'>
                     <h2 className='text-service-h2'>
                         WEB DEVLOPER
@@ -43,9 +38,7 @@ function Service(props) {
             </div>
             <div className='service-colum'>
             <div className='service-box1'>
-                <div className='service-img3'>
-                    {/* <Image src=  {openimg} alt='image' height={100} width={100} /> */}
-                </div>
+                <div className='service-img3'></div>
                 <div className='service-text1'>
                     <h2 className='text-service-h2'>
                     RESPONSIVE DESIGN
@@ -56,9 +49,7 @@ function Service(props) {
             </div>
             <div className='service-colum'>
             <div className='service-box1'>
-                <div className='service-img4'>
-                    {/* <Image src=  {openimg} alt='image' height={100} width={100} /> */}
-                </div>
+                <div className='service-img4'> </div>
                 <div className='service-text1'>
                     <h2 className='text-service-h2'>
                     GRAPHIC DESIGN
@@ -69,9 +60,7 @@ function Service(props) {
             </div>
             <div className='service-colum'>
             <div className='service-box1'>
-                <div className='service-img5'>
-                    {/* <Image src=  {openimg} alt='image' height={100} width={100} /> */}
-                </div>
+                <div className='service-img5'></div>
                 <div className='service-text1'>
                     <h2 className='text-service-h2'>
                     MARKETING SERVICES
@@ -82,9 +71,7 @@ function Service(props) {
             </div>
             <div className='service-colum'>
             <div className='service-box1'>
-                <div className='service-img6'>
-                    {/* <Image src=  {openimg} alt='image' height={100} width={100} /> */}
-                </div>
+                <div className='service-img6'> </div>
                 <div className='service-text1'>
                     <h2 className='text-service-h2'>
                     PHOTOGRAPHY

@@ -9,7 +9,7 @@ function About(props) {
         <div className='box'>
         <div className='box1'>
             <div className='imgbox'>
-               <Image src={aboutimg} alt='my image' width={150}  height={150} /> 
+               <Image src={aboutimg} alt='ANAS MALIK' width={150}  height={150} /> 
                <h2 className='imgtext'>Skill</h2>
                </div>
            
@@ -38,7 +38,7 @@ function About(props) {
         </div>
         <div className="Box3">
                     <div className="title-box-2">
-                      <h5 clasNames="title-left">
+                      <h5 classNames="title-left">
                         About me
                       </h5>
                     </div>

@@ -32,19 +32,19 @@ function Contact(props) {
                     <div className='contact-container2'>
                     <div className="col-md-6">
                     <div className="title-box-2 pt-4 pt-md-0">
-                      <h5 className="title-left">
+                      <h5 className="contact-title-left">
                         Get in Touch
                       </h5>
                     </div>
                     <div className="more-info">
-                      <p className="lead">
+                      <p className="contact-lead">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
                         expedita aperiam aliquid at.
                         Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
                         mollitia inventore?
                       </p>
                       <br></br>
-                      <ul className="list-ico">
+                      <ul className="contact-list-ico">
                         <li><span className="bi bi-geo-alt"></span> 110094 DELHI ,INDIA </li>
                         <br></br>
                         <li><span className="bi bi-phone"></span> (+91) 7065490017 </li>
@@ -56,7 +56,6 @@ function Contact(props) {
                     <div className="socials">
                       <ul className='contact-ul'>
                         <li className='contact-li'><a href=""><span className="ico-circle">Instagram<Image src={insta} className='contact-img'  width={30} height={30} alt='instagram'></Image></span></a></li>
-                        <br></br>
                         <li className='contact-li'><a href=""><span className="ico-circle">Facebook<Image src={facebook} className='contact-img'  width={30} height={30} alt='instagram'></Image></span></a></li>
                         <li className='contact-li'><a href=""><span className="ico-circle">Twiter<Image src={twiter} className='contact-img' width={30} height={30} alt='instagram'></Image></span></a></li>
                         <li className='contact-li'><a href=""><span className="ico-circle">Github<Image src={github} className='contact-img' width={30} height={30} alt='instagram'></Image></span></a></li>
