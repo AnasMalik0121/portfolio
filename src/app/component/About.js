@@ -9,8 +9,9 @@ function About(props) {
         <div className='box'>
         <div className='box1'>
             <div className='imgbox'>
-               <Image src={aboutimg} alt='ANAS MALIK' width={150}  height={150} /> 
-               <h2 className='imgtext'>Skill</h2>
+              <p className='about-hold'>Double click and hold</p>
+               <Image src={aboutimg} className='about-img' alt='ANAS MALIK' width={150}  height={150} /> 
+               
                </div>
            
                       <div className="about-info">
@@ -23,6 +24,7 @@ function About(props) {
           </div>
 
           <div className='box2'>
+          <h2 className='imgtext'>Skill</h2>
             
           <span>HTML 85%</span>
           <progress className="progress progress-info w-56" value="85" max="100"></progress>

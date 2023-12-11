@@ -57,9 +57,21 @@ body {
  font-family: serif;
  font-style: italic;
  font-weight: 600;
- text-shadow: hsla(0,9%,96%,.932) 1px 0 10px;
+ text-shadow: hsla(0, 2%, 68%, 0.932) 1px 0 10px;
  color: aqua;
+ animation-name:example ;
+ animation-duration: 4s;
+ text-decoration: underline;
+ animation-iteration-count: infinite;
+ 
 }
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: rgb(44, 186, 122);}
+  50%  {color: blue;}
+  100% {color: aqua;}
+}
+
 .hero-box2{
   width: 100%;
   display: flex;
@@ -132,6 +144,19 @@ body {
       margin-top: 10%;
       height: 50%;
 }
+.about-hold{
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-img{
+  transition: width 2s, height 2s, transform 2s;
+  cursor: pointer;
+}
+.about-img:active{
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+}
 .box2{
   display: grid;
   padding-left: 60px;
@@ -156,6 +181,7 @@ body {
    margin-top: 5%;
    font-size: 32px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: underline;
 
 }
 .imgtext{
@@ -244,7 +270,13 @@ body {
   background-image: url(../../public/images/Screen\ Scratch\ -\ scratch.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
   
+}
+.service-img1:hover{
+  border: 5px solid darkblue;
+  object-fit: cover;
 }
 
 .service-img2{
@@ -254,8 +286,15 @@ body {
   background-image: url(../../public/images/course_1663052056.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
   
 }
+.service-img2:hover{
+  border: 5px solid darkblue;
+  object-fit: cover;
+}
+
 .service-img3{
   border-radius: 100px;
   height: 150px;
@@ -263,8 +302,15 @@ body {
   background-image: url(../../public/images/download.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
   
 }
+.service-img3:hover{
+  border: 5px solid darkblue;
+  object-fit: cover;
+}
+
 .service-img4{
   border-radius: 100px;
   height: 150px;
@@ -272,8 +318,15 @@ body {
   background-image: url(../../public/images/graphics-designing-services.png);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
   
 }
+.service-img4:hover{
+  border: 5px solid darkblue;
+  object-fit: cover;
+}
+
 .service-img5{
   border-radius: 100px;
   height: 150px;
@@ -281,8 +334,15 @@ body {
   background-image: url(../../public/images/services-marketing-management.png);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
   
 }
+.service-img5:hover{
+  border: 5px solid darkblue;
+  object-fit: cover;
+}
+
 .service-img6{
   border-radius: 100px;
   height: 150px;
@@ -290,8 +350,15 @@ body {
   background-image: url(../../public/images/maxresdefault.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.5s;
   
 }
+.service-img6:hover{
+  border: 5px solid darkblue;
+  object-fit: cover;
+}
+
 .contact-seaction{
   justify-content: center;
   display: flex;
