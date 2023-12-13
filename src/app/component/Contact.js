@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 function Contact(props) {
     return (
+      <div id="CONTACT">
         <div className='contact-seaction'>
             <div className='contact-box'>
                 <div className='contact-row'>
@@ -66,6 +67,7 @@ function Contact(props) {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

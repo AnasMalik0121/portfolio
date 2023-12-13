@@ -3,6 +3,7 @@ import React from 'react';
 
 function Service(props) {
     return (
+        <div id="service">
         <div className='service-seaction'>   
         <div className='service-heading'>
         <h3 className="title-a">
@@ -84,6 +85,7 @@ function Service(props) {
              </div>
              </div>
           </div>
+        </div>
         </div>
     );
 }

@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 function navbar(props) {
     return (
+      <div id="HOME">
         <div className='oknav'>
            <div className="navbar bg-base-100">
   <div className="navbar-start">
@@ -26,24 +27,25 @@ function navbar(props) {
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><Link href='/about'>HOME</Link></li>
+      <li><a href='#HOME'>HOME</a></li>
       <li tabIndex={0}>
         <details>
           <summary>ABOUT</summary>
           <ul className="p-2">
-            <li><a>About me</a></li>
-            <li><a>Service</a></li>
+            <li><a href='#abouts'>About me</a></li>
+            <li><a href='#service'>Service</a></li>
           </ul>
         </details>
       </li>
-      <li><a>Service</a></li>
-      <li><a>Contact</a></li>
+      <li><a>PROJECT</a></li>
+      <li><a href='#CONTACT'>Contact</a></li>
     </ul>
   </div>
   <div className="navbar-end">
     <a className="btn">Button</a>
   </div>
 </div> 
+        </div>
         </div>
     );
 }

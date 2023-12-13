@@ -4,6 +4,7 @@ import aboutimg from '../../../public/images/okx.jpg';
 
 function About(props) {
   return (
+    <div id="abouts">
     <div className='seaction'>
       <div className='container'>
         <div className='box'>
@@ -62,6 +63,7 @@ function About(props) {
                     </p>
                   </div>
       </div>
+    </div>
     </div>
   );
 }
