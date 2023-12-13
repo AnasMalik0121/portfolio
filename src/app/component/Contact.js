@@ -56,10 +56,10 @@ function Contact(props) {
                     </div>
                     <div className="socials">
                       <ul className='contact-ul'>
-                        <li className='contact-li'><a href=""><span className="ico-circle">Instagram<Image src={insta} className='contact-img'  width={30} height={30} alt='instagram'></Image></span></a></li>
-                        <li className='contact-li'><a href=""><span className="ico-circle">Facebook<Image src={facebook} className='contact-img'  width={30} height={30} alt='instagram'></Image></span></a></li>
-                        <li className='contact-li'><a href=""><span className="ico-circle">Twiter<Image src={twiter} className='contact-img' width={30} height={30} alt='instagram'></Image></span></a></li>
-                        <li className='contact-li'><a href=""><span className="ico-circle">Github<Image src={github} className='contact-img' width={30} height={30} alt='instagram'></Image></span></a></li>
+                        <li className='contact-li'><a href="https://www.instagram.com/mr_anas_21o/"><span className="ico-circle">Instagram<Image src={insta} className='contact-img'  width={30} height={30} alt='instagram'></Image></span></a></li>
+                        <li className='contact-li'><a href="https://www.facebook.com/anas.malil.5"><span className="ico-circle">Facebook<Image src={facebook} className='contact-img'  width={30} height={30} alt='instagram'></Image></span></a></li>
+                        <li className='contact-li'><a href="https://twitter.com/i/flow/login"><span className="ico-circle">Twiter<Image src={twiter} className='contact-img' width={30} height={30} alt='instagram'></Image></span></a></li>
+                        <li className='contact-li'><a href="https://github.com/mranascool"><span className="ico-circle">Github<Image src={github} className='contact-img' width={30} height={30} alt='instagram'></Image></span></a></li>
                         
                       </ul>
                     </div>
